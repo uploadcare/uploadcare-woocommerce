@@ -1,0 +1,68 @@
+
+[class^="wdm_"], [class*=" wdm_"] {
+    font-family: 'wdm_instagram_plugin';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.wdm-insta-woo {
+    clear: both;
+    padding-top:5px;
+}
+#list {
+    margin: 0 -15px;
+}
+#list h4 {
+    padding: 0 15px;
+}
+div.wdm_img_drag_grid
+{
+    position: relative;
+    width: 100%;
+
+}
+
+
+/* Image Grid */
+.wdm-img-grid {
+    /*	cursor: move;*/
+    position: relative;
+    background-color: #222;
+}
+
+.wdm-action-btns {
+    bottom: 0;
+    position: absolute;
+}
+
+.wdm-img-grid {
+    overflow: hidden;
+}
+
+.wdm-img-grid img {
+    transition: transform 0.4s;
+    width: 100%;
+    background-color: #fff;
+}
+.wdm-img-upload{
+    display:inline-block;
+    padding:4px;
+}
+.wdm-add-img-link .uploadcare-widget-file-name.uploadcare-link::before {
+    content: "Add Files here: ";
+}
+
+.uploadcare-dialog-inner-wrap{
+    padding-top: 30px;
+}
+
+
+
