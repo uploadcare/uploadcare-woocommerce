@@ -110,11 +110,8 @@ if ( ! class_exists( 'Wdm_Widget_Menu' ) ) {
 				</p>
 
 				<h3>Enter your JS code </h3>
-				<textarea rows="5" cols="50" name="uploadcare_js">
-					<?php echo $uploadcare_js; ?>
-				</textarea>
+				<textarea rows="5" cols="50" name="uploadcare_js"><?php echo $uploadcare_js; ?></textarea>
 
-				</p>
 				<p class="submit">
 					<?php submit_button(); ?>
 				</p>
