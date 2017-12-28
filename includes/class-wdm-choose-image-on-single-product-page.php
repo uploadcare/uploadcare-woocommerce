@@ -53,7 +53,9 @@ if ( ! class_exists( 'Wdm_Choose_Image_On_Single_Product_Page' ) ) {
 
 				$uploadcare_js = stripslashes( get_option( 'uploadcare_js', true ) );
 
-				session_start();
+				if(!isset($_SESSION)) { 
+					session_start();
+				}
 
 				$_SESSION[ 'raw_js' ] = $uploadcare_js;
 
